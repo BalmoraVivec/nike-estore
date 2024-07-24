@@ -4,7 +4,9 @@ import '../styles/Header.css';
 const Header: React.FC = () => {
     return (
       <header className="header">
-        <div className="logo">Logo</div>
+        <div className="logo">
+          <img src="../../public/logo.jpg" alt="logo"></img>
+        </div>
         <nav className="nav">
           <a href="/">Home</a>
           <input type="text" placeholder="Search" className="search-bar" />

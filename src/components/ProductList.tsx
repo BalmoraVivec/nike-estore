@@ -23,7 +23,7 @@ const ProductList: React.FC = () => {
         ? a.title.localeCompare(b.title)
         : b.title.localeCompare(a.title);
     } else {
-      return sortOrder === 'asc' ? a.id - b.id : b.id - a.id;
+      return sortOrder === 'asc' ? a.id - b.id : a.id - b.id;
     }
   });
 
